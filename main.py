@@ -31,10 +31,6 @@ class Currencies:
         self._currencies_list.append(currencies)
         return self
 
-    def __sub__(self, currencies):
-        self._currencies_list.remove(currencies)
-        return self
-
     @property
     def get_currencies(self):
 
